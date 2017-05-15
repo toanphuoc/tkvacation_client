@@ -503,6 +503,19 @@ footer {
     margin-top: -50px;
 }
 
+.about-img-wapper h1{
+    font-size: 54px;
+    letter-spacing: 2px;
+    color: #fff;
+    position: relative;
+    top: 55%;
+    margin-top: 0;
+}
+
+.traveltour-page-title-content{
+
+}
+
 /* Responsive Styles */
 @media (max-width: 768px){
     .search-group .row div{
