@@ -43,9 +43,7 @@ body {
 }
 
 .traveltour-top-bar .phone a, .traveltour-top-bar .email a{
-    margin-left: -10px;
     position: relative;
-    top: -3px;
     text-decoration: none;
     color: #e2e2e2;
     font-size: 16px;
@@ -494,12 +492,17 @@ footer {
 
 
 /** For about us page*/
+.about, .contact{
+    padding: 10px 60px;
+    /*background: #EDEDED;*/
+}
+
 .about-img-wapper{
     background-image: url("../imgs/page-title-background.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 60%;
+    height: 75%;
     margin-top: -50px;
 }
 
@@ -508,12 +511,50 @@ footer {
     letter-spacing: 2px;
     color: #fff;
     position: relative;
-    top: 55%;
+    top: 60%;
     margin-top: 0;
 }
 
 .traveltour-page-title-content{
 
+}
+
+.about .title, .contact .title{
+    font-size: 32px;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #3a3a3a;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.contact input{
+    margin-bottom: 20px;
+    height: 40px;
+    outline: none;
+    padding: 8px 12px;
+}
+
+.contact input:focus, .contact textarea:focus{
+    border-color: rgba(0, 0, 0, 0.65);
+}
+
+.contact .send-message{
+    background: #468AE7;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.contact-details{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.contact-details a{
+    position: relative;
+    top: -5px;
+    text-decoration: none;
 }
 
 /* Responsive Styles */
@@ -658,7 +699,7 @@ footer {
     }
 
     .caption-text{
-        padding-bottom: 12%;
+        padding-bottom: 8%;
     }
 
     .caption-text p{

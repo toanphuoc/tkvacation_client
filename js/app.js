@@ -9,6 +9,14 @@ app.config(function($routeProvider) {
 		templateUrl: 'views/about.html',
 		controller: 'AboutController'
 	}).
+	when('/contact', {
+		templateUrl: 'views/contact.html', 
+		controller: 'ContactController'
+	}).
+	when('/destinations', {
+		templateUrl: 'views/destinations.html', 
+		controller: 'DestinationController'
+	}).
     otherwise({ redirectTo: '/' })
 });
 
