@@ -96,10 +96,14 @@
 .itinerary{
    	font-weight: 500;
     color: #8c8c8c;
-    font-size: 18px;
+    font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    -ms-word-break: break-all;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-wrap: break-word;
+    max-height: 90px;
 }
 
 .tours-price{
@@ -149,16 +153,7 @@
 	}
 }
 
-@media(max-width: 768px){
-	/* .tours .item{
-		width: 50%;
-	} */
-}
-
 @media(max-width: 480px){
-	/* .tours .item{
-		width: 100%;
-	} */
 
 	.tour-detail-center{
 		padding-left: 15px;
