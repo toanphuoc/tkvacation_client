@@ -8,13 +8,20 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/Poppins-Regular.ttf');
+    src: url('../fonts/Poppins-Regular.ttf').format("ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf').format("ttf");
+    font-weight: 800;
 }
 
 html,
 body {
     height: 100%;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -81,7 +88,7 @@ body {
 
 .logo{
     padding-left: 15px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .menu a{
@@ -374,9 +381,9 @@ footer {
     margin-top: 50px;
 }
 
-.padding_45{
-    padding-right: 45px;
-    padding-left: 45px;
+.padding_30{
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .traveltour-footer-wrapper{
@@ -504,6 +511,7 @@ footer {
     position: relative;
     height: 75%;
     margin-top: -50px;
+    max-height: 500px;
 }
 
 .about-img-wapper h1{
@@ -513,6 +521,8 @@ footer {
     position: relative;
     top: 60%;
     margin-top: 0;
+    margin-bottom: 2px;
+    font-weight: bold;
 }
 
 .traveltour-page-title-content{
@@ -543,11 +553,11 @@ footer {
 .contact .send-message{
     background: #468AE7;
     font-weight: 600;
-    padding: 10px 20px;
+    padding: 12px 20px;
 }
 
 .contact-details{
-    margin-top: 40px;
+    margin-top: 15px;
     font-size: 18px;
 }
 
@@ -593,6 +603,7 @@ footer {
     .caption-text input {
         padding: 20px 30px;
     }
+
 }
 
 @media (min-width: 320px){
@@ -660,6 +671,10 @@ footer {
 
 @media (min-width: 768px){
 
+    /* .logo a{
+        padding-top: 20px;
+    } */
+
     .m-col-md-5{
         width: 20%;
     }
@@ -722,6 +737,16 @@ footer {
 
     .popular-tour .gdlr-core-title-item-link{
         margin-left: 25px;
+    }
+}
+
+@media(max-width: 480px){
+    .about, .contact {
+        padding: 10px 15px;
+    }
+
+    .about-img-wapper h1 {
+        font-size: 36px; 
     }
 }
 

@@ -17,6 +17,10 @@ app.config(function($routeProvider) {
 		templateUrl: 'views/destinations.html', 
 		controller: 'DestinationController'
 	}).
+	when('/destination/:desId', {
+		templateUrl: 'views/tour_destanation.html',
+		controller: 'DestinationTourController'
+	}).
     otherwise({ redirectTo: '/' })
 });
 
