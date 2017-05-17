@@ -111,7 +111,7 @@
 
 .booking{
 	border-left: 1px solid #e1e1e1;
-    padding: 30px 0px;
+    padding: 0px 0px 45px;
     border-right: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
 }
@@ -125,23 +125,16 @@
     padding: 15px 27px;
     display: inline-block;
     border: 0;
-    margin-top: 15px;
     width: 100%;
 }
 
 .booking .start-date-value{
-	font-size: 16px;
-    line-height: 45px;
-    font-weight: 600;
-    color: #333;
-    text-align: left;
-    margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .booking i{
 	font-size: 20px;
     line-height: 45px;
-    float: left;
     width: 30px;
     color: #4692e7;
 }
@@ -155,6 +148,25 @@
     border: 0px;
     outline: none;
     border: 2px solid #e6e6e6;
+}
+
+.booking-footer{
+    margin-top: 30px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 30px;
+}
+
+.price{
+    background: #4179C1;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+}
+
+.price p{
+    font-size: 32px;
+    margin-right: 15px;
+    font-weight: 800;
+    color: #fff;
 }
 
 @media(min-width: 768px){
