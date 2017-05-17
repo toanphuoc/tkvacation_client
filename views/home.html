@@ -9,7 +9,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image:url('imgs/sapa.jpg');"></div>
+            <div class="fill" style="background-image:url('imgs/shutterstock_94851763-700x450.jpg');"></div>
             <div class="carousel-caption caption-text">
                 <p>Special</p>
                 <h1>7 Days in Switzerland</h1>
@@ -35,10 +35,10 @@
     </div>
 
     <!-- Controls -->
-    <a class="left carousel-control" style="width: 5%;" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" style="width: 5%;" href="javascript:void(0)" ng-click="prevCarouel()" data-slide="prev">
         <span class="icon-prev"></span>
     </a>
-    <a class="right carousel-control" style="width: 5%;" href="#myCarousel" data-slide="next">
+    <a class="right carousel-control" style="width: 5%;" href="javascript:void(0)" ng-click="nextCarouel()" data-slide="next">
         <span class="icon-next"></span>
     </a>
 </header>
@@ -86,7 +86,8 @@
                     </div>
                     <div class="col-md-3 m-col-md-5 col-sm-6">
                         <label></label>
-                        <input class="form-control search-btn" type="button" value="SEARCH" name="">
+                        <!-- <a href="#!/search" class="search-btn">SEARCH</a> -->
+                        <input class="form-control search-btn" type="button" value="SEARCH" name="" ng-click="search()">
                     </div>
                 </div>
             </div>

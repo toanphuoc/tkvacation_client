@@ -126,6 +126,7 @@
     display: inline-block;
     border: 0;
     width: 100%;
+    text-decoration: none;
 }
 
 .booking .start-date-value{

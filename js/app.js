@@ -29,6 +29,10 @@ app.config(function($routeProvider) {
 		templateUrl: 'views/booking.html',
 		controller: 'BookingController'
 	}).
+	when('/search', {
+		templateUrl: 'views/search.html',
+		controller: 'SearchController'
+	}).
     otherwise({ redirectTo: '/' })
 });
 
