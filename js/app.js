@@ -25,6 +25,10 @@ app.config(function($routeProvider) {
 		templateUrl: 'views/tour.html',
 		controller: 'TourController'
 	}).
+	when('/booking/:tourId/:startDate/:dateOfNumber', {
+		templateUrl: 'views/booking.html',
+		controller: 'BookingController'
+	}).
     otherwise({ redirectTo: '/' })
 });
 
