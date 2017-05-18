@@ -33,6 +33,10 @@ app.config(function($routeProvider) {
 		templateUrl: 'views/search.html',
 		controller: 'SearchController'
 	}).
+	when('/custumize_tour', {
+		templateUrl: 'views/customize_tour.html',
+		controller: 'CustumizeTourController'
+	}).
     otherwise({ redirectTo: '/' })
 });
 

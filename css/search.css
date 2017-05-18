@@ -131,22 +131,22 @@
 
 .search-banel{
 	margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 30px;
 }
 
 .search-banel input, .search-banel select{
-	/*color: #b9c1d5;*/
-    /*background-color: #585d6b;*/
     border-color: #676e74;
     font-size: 13px;
     height: 48px;
     padding: 12px 17px;
     width: 100%;
-    border: 1px solid #8c8c8c;
+    border: 2px solid #e6e6e6;
     outline: none;
     -webkit-appearance: none;
 }
 
-.search-banel .m-col-md-5 div:after {
+.search-banel .form-group div:after {
     font-family: fontAwesome;
     content: "\f0dd";
     font-size: 14px;
@@ -167,6 +167,70 @@
     text-transform: uppercase;
     padding: 13px 20px;
     border: 0px;
-    margin-top: 5px;
+    margin-top: 25px;
     color: #fff;
+}
+
+@media(min-width: 768px){
+    .tour-detail-center{
+        padding: 20px 35px;
+        max-height: 245px;
+    }
+
+    .tours-price{
+        border-left: 2px solid #e1e1e1;
+    }
+}
+
+@media(max-width: 768px){
+    .search-banel{
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 480px){
+
+    .tour-detail-center{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .item .name{
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .tours .tours-des .item{
+        border: 0;
+    }
+
+    .search-banel{
+        padding-right: 0;
+    }
+}
+
+.other-destinations{
+
+}
+
+.other-destinations h3{
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    position: relative;
+    margin-bottom: 28px;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.other-des-name{
+    position: relative;
+    padding: 9px 10px;
+}
+
+.other-des-name-value{
+        font-weight: 600;
+    font-size: 14px;
+    color: #8c8c8c;
 }
