@@ -36,7 +36,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top header" role="navigation">
             <div class="container traveltour-top-bar">
                 <div class="row">
-                    <div class="col-md-12 text-right">
+                    <div class="col-md-6 text-left">
                         <span class="fa fa-phone phone">
                             <a href="tel:84-938-144-236"><span>+84.938.144.236</span></a>
                             
@@ -45,6 +45,9 @@
                             <a href="mailto:Contact@TravelTourWP.com"><span>Contact@TravelTourWP.com</span></a>
                         </span>
                     </div>
+                   <!--  <div class="col-md-6 text-right">
+                        <a href="">Customize a tour</a>
+                    </div> -->
                 </div>
             </div>
             <div class="container">
@@ -66,6 +69,9 @@
                         </li>
                         <li>
                             <a href="#!/destinations">DESTINATIONS</a>
+                        </li>
+                        <li>
+                            <a href="#!/custumize_tour">CUSTOMIZE TOUR</a>
                         </li>
                         <li>
                             <a href="#!/search">FIND TOUR</a>
@@ -146,7 +152,7 @@
     <script type="text/javascript" src="js/controller/tours_controller.js"></script>
     <script type="text/javascript" src="js/controller/tour_detail_controller.js"></script>
     <script type="text/javascript" src="js/controller/booking_controller.js"></script>
-    <script type="text/javascript" src="js/controller/search_controller.js"></script>\
+    <script type="text/javascript" src="js/controller/search_controller.js"></script>
     <script type="text/javascript" src="js/controller/customize_controller.js"></script>
 
     <script>
@@ -166,6 +172,12 @@
                 $(".traveltour-top-bar").addClass("hidden", 1500);
                 $('.header').addClass('bg-overload');
             }
+
+            $(document).on('click','.navbar-collapse.in',function(e) {
+                if( $(e.target).is('a') ) {
+                    $(this).collapse('hide');
+                }
+            });
         });
 
         
