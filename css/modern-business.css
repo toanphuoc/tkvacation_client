@@ -676,13 +676,13 @@ footer {
     .caption-text p{
         font-size: 40px;
         font-weight: 600;
-        line-height: 64px;
+        line-height: 30px;
     }
 
     .caption-text h1{
         font-size: 20px;
         font-weight: 600;
-        line-height: 40px; 
+        line-height: 75px; 
     }
 
     .caption-text a{
