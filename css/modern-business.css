@@ -149,7 +149,7 @@ header.carousel .fill {
 }
 
 .search{
-    background-image: url('/imgs/search-bg.jpg');
+    background-image: url('../imgs/search-bg.jpg');
     background-repeat: repeat;
     background-position: top left;
     width: 100%;
