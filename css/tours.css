@@ -62,6 +62,12 @@
     text-transform: uppercase;
     outline: 0;
     border: 0;
+    text-decoration: none;
+}
+
+.tours-details-btn:hover{
+    text-decoration: none;
+    color: #fff;
 }
 
 .tourmaster-tour-info-duration-text, .tourmaster-tour-info-availability{

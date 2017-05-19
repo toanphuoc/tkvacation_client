@@ -475,7 +475,7 @@ footer {
     transform-origin: 50% 50% 0px;
 }
 
-.caption-text input{
+.caption-text a{
     z-index: 8;
     white-space: nowrap;
     font-weight: 900;
@@ -630,7 +630,7 @@ footer {
         margin-left: 25px;
     }
 
-    .caption-text input {
+    .caption-text a {
         padding: 20px 30px;
     }
 }
@@ -685,7 +685,7 @@ footer {
         line-height: 40px; 
     }
 
-    .caption-text input{
+    .caption-text a{
         font-size: 13px;
         font-weight: 900;
         line-height: 12px;
@@ -749,16 +749,16 @@ footer {
     .caption-text p{
         font-size: 90px;
         font-weight: 600;
-        line-height: 100px;
+        line-height: 50px;
     }
 
     .caption-text h1{
         font-size: 45px;
         font-weight: 600;   
-        line-height: 100px;
+        line-height: 125px;
     }
 
-    .caption-text input{
+    .caption-text a{
         font-size: 13px;
         font-weight: 900;
         
