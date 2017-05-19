@@ -82,3 +82,10 @@
     color: #fff;
     border-radius: 0;
 }
+
+@media(max-width: 480px){
+    .tour-name h3{
+        font-size: 20px;
+    }
+    
+}
